@@ -1,16 +1,17 @@
-# note_app
+# Note-Taking App with Firebase
 
-A new Flutter project.
+## Progress:
+- **Firebase Integration:** Firebase Authentication is set up for email/password login.
+- **UI:** Login Screen and basic Home Screen are implemented.
+- **Firestore Setup:** Firebase Firestore is integrated, but CRUD operations for notes are not working yet.
+- **State Management:** Provider is added but not fully integrated with the app.
 
-## Getting Started
+## Issues:
+- CRUD operations (add, edit, delete notes) are not functional.
+- Notes are not displayed on the Home Screen.
+- Some Firebase and Firestore errors need to be fixed.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Next Steps:
+- Implement CRUD functionality for notes.
+- Connect UI with Firestore to display notes.
+- Fix state management and Firebase integration.
